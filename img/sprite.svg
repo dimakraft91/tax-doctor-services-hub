@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<symbol id="icon-plus" viewBox="0 0 466.7 466.7" xmlns="http://www.w3.org/2000/svg">
+		<path d="M33.3 233.3h400m-200-200v400" 
+    fill="none" stroke="currentColor" stroke-width="66.6667" stroke-linecap="round"
+    stroke-linejoin="round" stroke-miterlimit="133.3333"/>
+	</symbol>
+	<symbol id="icon-arrow-right-top" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+		    <path d="M33.3 366.7 366.7 33.3m0 0H33.3m333.4 0v333.3" fill="none" stroke="currentColor" stroke-width="66.6667" stroke-linecap="round"
+    stroke-linejoin="round" stroke-miterlimit="133.3333"/>
+	</symbol>
+</svg>
