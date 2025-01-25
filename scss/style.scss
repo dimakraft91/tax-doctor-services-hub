@@ -1756,3 +1756,31 @@ color: #444;
 }
 
 //  services 
+
+.bid {
+  background-color: #042E4E;
+}
+.bid__container {
+  position: relative;
+}
+.bid__container:after {
+  content: "";
+  background: url("../img/bid/bid-bg-element.png") no-repeat;
+  width: 838px;
+  height: 297px;
+  position: absolute;
+  display: inline-block;
+  right: 100px;
+  top: 0;
+}
+.bid__form {
+  padding-bottom: 10rem;
+}
+
+.bid__title {
+  color: #fff;
+  max-width: 75.2rem;
+}
+.bid__description {
+  color: #fff;
+}
