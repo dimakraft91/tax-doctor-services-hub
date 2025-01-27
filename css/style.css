@@ -657,7 +657,7 @@ body {
 }
 
 .title {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -670,7 +670,7 @@ body {
 }
 
 .description {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -695,7 +695,7 @@ body {
 }
 
 .item-title {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -703,7 +703,7 @@ body {
 }
 
 .item-description {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -717,7 +717,7 @@ body {
   background: transparent;
   border: 1px solid #042E4E;
   border-radius: 60px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -933,7 +933,7 @@ body {
   border-bottom: 1px solid #fff;
   background: #FFFFFF;
   border-radius: 10px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -944,7 +944,7 @@ body {
 
 .form__input::-webkit-input-placeholder { /* WebKit browsers */
   color: #fff;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -953,7 +953,7 @@ body {
 
 .form__input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   color: #fff;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -962,7 +962,7 @@ body {
 
 .form__input::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: #fff;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -971,7 +971,7 @@ body {
 
 .form__input:-ms-input-placeholder { /* Internet Explorer 10+ */
   color: #fff;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1651,6 +1651,12 @@ body {
   max-width: 407px;
 }
 
+.advantages__container .advantages__top .advantages__btn {
+  background-color: transparent;
+  color: #042E4E;
+  font-weight: 500;
+}
+
 .reviews {
   background: #F5F6FA;
 }
@@ -1681,6 +1687,12 @@ body {
 }
 .reviews__item img {
   width: 100%;
+}
+
+.reviews__container .reviews__block .reviews__right .reviews__btn {
+  background-color: transparent;
+  color: #042E4E;
+  font-weight: 500;
 }
 
 .btn {
