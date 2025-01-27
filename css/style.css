@@ -404,7 +404,7 @@ body {
       align-self: flex-end;
   background: #042E4E;
   border-radius: 10px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1067,7 +1067,7 @@ body {
   margin-top: 19px;
 }
 .cases__item {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1275,7 +1275,7 @@ body {
       align-self: flex-end;
   background: #042E4E;
   border-radius: 10px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1357,7 +1357,7 @@ body {
   margin-top: 19px;
 }
 .cases__item {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1539,7 +1539,11 @@ body {
   -ms-flex-item-align: baseline;
       align-self: baseline;
   margin-top: 140px;
-  background-color: transparent;
+  background: transparent;
+  color: #042E4E;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 .advantages__right {
   width: 50%;
@@ -1655,6 +1659,13 @@ body {
 }
 .reviews__description {
   max-width: 89rem;
+}
+.reviews__btn {
+  background: transparent;
+  color: #042E4E;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 .reviews__bottom {
   display: -webkit-box;

@@ -357,7 +357,7 @@ body {
     align-self: flex-end;
     background: #042E4E;
 border-radius: 10px;
-font-family: 'Montserrat';
+font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -1007,7 +1007,7 @@ border-radius: 5px;
     margin-top: 19px;
   }
   &__item {
-    font-family: 'Montserrat';
+    font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -1246,7 +1246,7 @@ margin-left: 26px;
 		align-self: flex-end;
 		background: #042E4E;
 border-radius: 10px;
-font-family: 'Montserrat';
+font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -1335,7 +1335,7 @@ border-radius: 5px;
 		margin-top: 19px;
 	}
 	&__item {
-		font-family: 'Montserrat';
+		font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -1577,7 +1577,11 @@ margin-top: 130px;
     display: unset;
         align-self: baseline;
         margin-top: 140px;
-        background-color: transparent;
+            background: transparent;
+    color: #042E4E;
+    font-weight: 500;
+font-size: 14px;
+font-family: "Montserrat", sans-serif;      
   }
   &__right {
     width: 50%;
@@ -1692,7 +1696,13 @@ max-width: 407px;
   }
   &__description {max-width: 89rem;}
   &__right {}
-  &__btn {}
+  &__btn {
+    background: transparent;
+    color: #042E4E;
+    font-weight: 500;
+font-size: 14px;
+font-family: "Montserrat", sans-serif; 
+  }
   &__bottom {
     display: flex;
     justify-content: space-between;
