@@ -736,173 +736,6 @@ body {
   background-color: #f5f6fa;
 }
 
-.indicators {
-  background-color: #f5f6fa;
-}
-
-.indicators__container {
-  padding: 0 100px;
-  position: relative;
-}
-
-/*.indicators__container:before {
-  content: '';
-  background: url("../img/indicators/star.svg") no-repeat;
-  width: 687px;
-  height: 687px;
-  position: absolute;
-  display: block;
-  bottom: 50px;
-    left: -67px;
-    z-index: 1;
-}*/
-.indicators__bottom-item:first-child, .indicators__bottom-item:nth-child(2) {
-  position: relative;
-  z-index: 2;
-}
-
-.indicators__block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding-top: 10.5rem;
-}
-
-.indicators__left {
-  width: 47%;
-}
-
-.indicators__title {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #042E4E;
-  max-width: 488px;
-  margin-bottom: 42px;
-}
-
-.indicators__btn {
-  display: unset;
-}
-
-.indicators__right {
-  width: 53%;
-  margin-top: 5px;
-}
-
-.indicators__right-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-bottom: 35px;
-  border-bottom: 1px solid #CECECE;
-  margin-bottom: 25px;
-}
-
-.indicators__right-item:last-child {
-  margin-bottom: 0;
-}
-
-.indicators__bottom {
-  margin-top: 9rem;
-  margin-bottom: 10.4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.indicators__bottom-item {
-  margin-right: 7.6rem;
-}
-
-.indicators__bottom-img {
-  width: 79px;
-  height: 79px;
-  background: #FFFFFF;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.indicators__bottom-image {
-  width: 34px;
-}
-
-.indicators__bottom-title {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  color: #444444;
-  margin-top: 3.2rem;
-  margin-bottom: 3.2rem;
-}
-
-.indicators__bottom-description {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 130%;
-  letter-spacing: -0.02em;
-  color: #444444;
-}
-
-.indicators .indicator {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 80px;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #042E4E;
-  /*margin-right: 12rem;*/
-  margin-right: 4rem;
-}
-
-.indicators .text {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  letter-spacing: -0.01em;
-  color: #042E4E;
-  padding-left: 8px;
-}
-
-.indicators .description {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 130%;
-  letter-spacing: -0.02em;
-  color: #444444;
-  max-width: 407px;
-}
-
 .team {
   padding: 0 12rem 11rem;
   background: #F5F6FA;
@@ -1617,9 +1450,6 @@ body {
   color: #444;
 }
 
-.industry {
-  background-color: #F5F6FA;
-}
 .industry__top {
   padding-top: 10.5rem;
 }
@@ -1673,6 +1503,173 @@ body {
   letter-spacing: -0.02em;
   color: #444;
   max-width: 150px;
+}
+
+.advantages {
+  background-color: #F5F6FA;
+}
+.advantages__container {
+  padding: 0 100px;
+}
+.advantages__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10.5rem;
+}
+.advantages__left {
+  width: 50%;
+}
+.advantages__title {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #042E4E;
+  margin-bottom: 42px;
+  margin-top: 130px;
+}
+.advantages__btn {
+  display: unset;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  margin-top: 140px;
+  background-color: transparent;
+}
+.advantages__right {
+  width: 50%;
+  margin-top: 5px;
+}
+.advantages__right-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #CECECE;
+  margin-bottom: 25px;
+}
+.advantages__right-item:last-child {
+  margin-bottom: 0;
+}
+.advantages__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.advantages__bottom {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.advantages__bottom-item {
+  margin-right: 7.6rem;
+  position: relative;
+  z-index: 2;
+}
+.advantages__bottom-img {
+  width: 79px;
+  height: 79px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.advantages__bottom-image {
+  width: 34px;
+}
+.advantages__bottom-title {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #444444;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+.advantages__bottom-description {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: #444444;
+}
+.advantages .indicator {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #042E4E;
+  margin-right: 12rem;
+}
+.advantages .text {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  color: #042E4E;
+  padding-left: 8px;
+}
+.advantages .description {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: #444444;
+  max-width: 407px;
+}
+
+.reviews {
+  background: #F5F6FA;
+}
+.reviews__block {
+  padding-top: 200px;
+}
+.reviews__description {
+  max-width: 89rem;
+}
+.reviews__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 7rem;
+}
+.reviews__item {
+  width: calc(33.3% - 5px);
+}
+.reviews__item img {
+  width: 100%;
 }
 
 .btn {

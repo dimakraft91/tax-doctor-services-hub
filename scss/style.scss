@@ -690,152 +690,7 @@ top: -50px;
   background-color: #f5f6fa;
 }
 
-.indicators {
-  background-color: #f5f6fa;
-}
-.indicators__container {
-  padding: 0 100px;
-  position: relative;
-}
-/*.indicators__container:before {
-  content: '';
-  background: url("../img/indicators/star.svg") no-repeat;
-  width: 687px;
-  height: 687px;
-  position: absolute;
-  display: block;
-  bottom: 50px;
-    left: -67px;
-    z-index: 1;
-}*/
-.indicators__bottom-item:first-child, .indicators__bottom-item:nth-child(2) {
-  position: relative;
-  z-index: 2;
-}
-.indicators__block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 10.5rem;
-}
-.indicators__left {
-  width: 47%;
-}
-.indicators__title {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #042E4E;
-  max-width: 488px;
-  margin-bottom: 42px;
-}
-.indicators__btn {
-  display: unset;
-}
-.indicators__right {
-  width: 53%;
-  margin-top: 5px;
-}
-.indicators__right-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-          justify-content: space-between;
-  padding-bottom: 35px;
-  border-bottom: 1px solid #CECECE;
-  margin-bottom: 25px;
-}
-.indicators__right-item:last-child {
-  margin-bottom: 0;
-}
-.indicators__bottom {
-  margin-top: 9rem;
-  margin-bottom: 10.4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.indicators__bottom-item {
-  margin-right: 7.6rem;
-}
-.indicators__bottom-img {
-  width: 79px;
-  height: 79px;
-  background: #FFFFFF;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.indicators__bottom-image {
-  width: 34px;
-}
-.indicators__bottom-title {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  color: #444444;
-  margin-top: 3.2rem;
-  margin-bottom: 3.2rem;
-}
-.indicators__bottom-description {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 130%;
-  letter-spacing: -0.02em;
-  color: #444444;
-}
-.indicators .indicator {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 80px;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #042E4E;
-  /*margin-right: 12rem;*/
-  margin-right: 4rem;
-}
-.indicators .text {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  letter-spacing: -0.01em;
-  color: #042E4E;
-  padding-left: 8px;
-}
-.indicators .description {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 130%;
-  letter-spacing: -0.02em;
-  color: #444444;
-  max-width: 407px;
-}
+
 
 .team {
   padding: 0 12rem 11rem;
@@ -1596,7 +1451,7 @@ color: #444;
 // Отрасли
 
 .industry {
-      background-color: #F5F6FA;
+      
   &__container {}
   &__top {
         padding-top: 10.5rem;
@@ -1678,6 +1533,180 @@ color: #444;
 
 
 // Отрасли
+
+// advantages
+
+.advantages {
+  background-color: #F5F6FA;
+  // .indicators__bg-element {
+  //  position: relative;
+  //  &:before {
+ //   content: "";
+ //    background: url('../img/indicators/plus-bg.png') no-repeat;
+ //    width: 687px;
+ //    height: 687px;
+ //    position: absolute;
+ //    display: block;
+ //        left: -135px;
+ //    top: 441px;
+ //  }
+  // }
+  &__container {
+    padding: 0 100px;
+  }
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10.5rem;
+  }
+  &__left {
+    width: 50%;
+  }
+  &__title {
+    font-family: "Montserrat", serif;
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #042E4E;
+margin-bottom: 42px;
+margin-top: 130px;
+  }
+  &__btn {
+    display: unset;
+        align-self: baseline;
+        margin-top: 140px;
+        background-color: transparent;
+  }
+  &__right {
+    width: 50%;
+    margin-top: 5px;
+  }
+  &__right-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #CECECE;
+    margin-bottom: 25px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__top {
+        display: flex
+;
+    justify-content: space-between;
+  }
+  &__bottom {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__bottom-item {
+    margin-right: 7.6rem;
+    position: relative;
+    z-index: 2;
+  }
+  &__bottom-img {
+    width: 79px;
+height: 79px;
+background: #FFFFFF;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  &__bottom-image {
+    width: 34px;
+  }
+  &__bottom-title {
+    font-family: "Montserrat", serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: #444444;
+margin-top: 3.2rem;
+margin-bottom: 3.2rem;
+  }
+  &__bottom-description {
+    font-family: "Montserrat", serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: -0.02em;
+color: #444444;
+  }
+  .btn {
+}
+.indicator {
+  font-family: "Montserrat", serif;
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #042E4E;
+margin-right: 12rem;
+}
+.text {
+  font-family: "Montserrat", serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+letter-spacing: -0.01em;
+color: #042E4E;
+padding-left: 8px;
+  
+}
+.description {
+  font-family: "Montserrat", serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: -0.02em;
+color: #444444;
+max-width: 407px;
+}
+}
+
+
+
+// advantages
+
+// rewiews
+
+.reviews {
+  background: #F5F6FA;
+  &__container {}
+  &__block {
+    padding-top: 200px;
+  }
+  &__top {
+
+  }
+  &__title {
+
+  }
+  &__description {max-width: 89rem;}
+  &__right {}
+  &__btn {}
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+  }
+  &__item {
+    width: calc(33.3% - 5px);
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// rewiews
 
 //  services 
 
