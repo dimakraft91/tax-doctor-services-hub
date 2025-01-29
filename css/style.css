@@ -978,10 +978,6 @@ body {
   letter-spacing: -0.02em;
 }
 
-.rating {
-  background: #F5F6FA;
-}
-
 .rating__block {
   padding-top: 10rem;
 }
@@ -1008,6 +1004,11 @@ body {
   width: 100%;
 }
 
+.cases {
+  background: url("../img/cases/cases-bg.png") no-repeat;
+  background-size: cover;
+  padding-bottom: 111px;
+}
 .cases__task-item {
   background: #042E4E;
   border-radius: 5px;
@@ -1524,7 +1525,7 @@ body {
   width: 50%;
 }
 .advantages__title {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -1604,7 +1605,7 @@ body {
   width: 34px;
 }
 .advantages__bottom-title {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -1613,7 +1614,7 @@ body {
   margin-bottom: 3.2rem;
 }
 .advantages__bottom-description {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1622,7 +1623,7 @@ body {
   color: #444444;
 }
 .advantages .indicator {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 80px;
@@ -1632,7 +1633,7 @@ body {
   margin-right: 12rem;
 }
 .advantages .text {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -1641,7 +1642,7 @@ body {
   padding-left: 8px;
 }
 .advantages .description {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1948,6 +1949,10 @@ body {
   color: #fff;
 }
 
+.leaders {
+  background: url("../img/leaders/leaders-bg.png") no-repeat;
+  background-size: cover;
+}
 .leaders__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2073,7 +2078,7 @@ body {
 }
 .contacts .form__input::-webkit-input-placeholder { /* WebKit browsers */
   color: #6E6E6E;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -2081,7 +2086,7 @@ body {
 }
 .contacts .form__input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   color: #6E6E6E;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -2089,7 +2094,7 @@ body {
 }
 .contacts .form__input::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: #6E6E6E;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -2097,7 +2102,7 @@ body {
 }
 .contacts .form__input:-ms-input-placeholder { /* Internet Explorer 10+ */
   color: #6E6E6E;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -2134,7 +2139,7 @@ body {
   margin-top: 3rem;
 }
 .footer__contacts a {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -2154,7 +2159,7 @@ body {
           flex-direction: column;
 }
 .footer__time {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2164,7 +2169,7 @@ body {
   text-decoration: none;
 }
 .footer__address {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2180,7 +2185,7 @@ body {
   margin-right: 2rem;
 }
 .footer__privacy {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -2191,7 +2196,7 @@ body {
   padding-bottom: 10.4rem;
 }
 .footer__col-title {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -2206,7 +2211,7 @@ body {
   margin-bottom: 1.4rem;
 }
 .footer__col-link {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
